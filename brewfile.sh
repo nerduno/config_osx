@@ -36,13 +36,15 @@ brew install valgrind
 brew install gcc
 brew install qt
 #--build-from-source prevents packages that depend on python from
-# replacing the OS_X system python with brewed python.
+#  replacing the OS_X system python with brewed python.
+#  (https://github.com/Homebrew/homebrew/issues/31229#issuecomment-60721969)
 brew install sip --build-from-source
 brew install pyqt --build-from-source
 brew install gstreamer --build-from-source
 brew install jasper
+#Note: opencv install python bindings.
 brew install opencv --with-qt --with-ffmpeg --with-gstreamer --with-jasper
-#other things to install: zsh,
+#Other things to install: zsh,
 #zeromq (seems to be taken care of by pip install ipython[all])
 
 log "Installing casks"
