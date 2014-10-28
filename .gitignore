@@ -1,0 +1,17 @@
+.DS_Store
+
+#These contain private information:
+.boto
+.ssh
+.plotly/.credentials
+.gitconfig
+
+#These are extraneous
+from_old_laptop
+.emacs.d/tramp
+.emacs.d/url
+.emacs.d/elpa
+.emacs.d/auto-save-list
+.emacs.d/el-get
+.emacs.d/.DS_Store
+.emacs.d/ac-comphist.dat
