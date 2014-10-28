@@ -44,6 +44,7 @@ brew install gstreamer --build-from-source
 brew install jasper
 #Note: opencv install python bindings.
 brew install opencv --with-qt --with-ffmpeg --with-gstreamer --with-jasper
+brew install hdf5
 #Other things to install: zsh,
 #zeromq (seems to be taken care of by pip install ipython[all])
 
@@ -57,6 +58,11 @@ brew cask install launchbar
 brew cask install spotify
 brew cask install atom
 brew cask install r
+brew cask install java
+brew cask install fiji
+#brew cask install mendeley-desktop
+#brew cask install zotero
+
 #casks to add:
 #iterm2 textexplander sourcetree adium alfred
 #bonjour-browser caffeine charles coconutbattery flux
