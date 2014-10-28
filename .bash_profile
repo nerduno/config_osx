@@ -2,6 +2,15 @@
 #AA: Increase terminal command histoy.
 HISTFILESIZE=1000000000 HISTSIZE=1000000
 
+# Case-insensitive globbing (used in pathname expansion)
+shopt -s nocaseglob;
+
+# Append to the Bash history file, rather than overwriting it
+shopt -s histappend;
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell;
+
 #AA: make up-arrow search command history...
 #note ^[[A ^[[B cannot be copy and pasted, they represent up and down arrow.
 #http://www.macworld.com/article/1146015/termhistory.html
