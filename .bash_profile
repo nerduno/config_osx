@@ -67,7 +67,7 @@ function emacs_gui
     do
 	test -e $f || touch $f
     done
-    open -a /Applications/Emacs.app "$@"
+    open -a /opt/homebrew-cask/Caskroom/emacs/24.4/Emacs.app "$@"
 }
 
 export PATH="/Users/andalman/Library/Application Support/GoodSync":$PATH

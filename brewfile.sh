@@ -57,9 +57,15 @@ brew cask install boot2docker
 brew cask install launchbar
 brew cask install spotify
 brew cask install atom
+brew cask install emacs
 brew cask install r
 brew cask install java
 brew cask install fiji
+brew cask install moom
+brew cask install arduino
+brew cask install handbrake
+brew cask install vlc
+brew cask install airfoil
 #brew cask install mendeley-desktop
 #brew cask install zotero
 
