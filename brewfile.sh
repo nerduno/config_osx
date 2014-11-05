@@ -49,7 +49,10 @@ brew install hdf5
 #zeromq (seems to be taken care of by pip install ipython[all])
 
 log "Installing casks"
-#installed outside of brew: google-chrome dropbox evernote
+brew cask install google-chrome
+brew cask install dropbox
+brew cask install evernote
+brew cask install dashlane
 brew cask install xquartz
 brew cask install paragon-ntfs
 brew cask install picasa
@@ -66,8 +69,12 @@ brew cask install arduino
 brew cask install handbrake
 brew cask install vlc
 brew cask install airfoil
+brew cask install google-drive
+brew cask install remote-desktop-connection
+brew cask install zotero
+#brew cask info omnigraffle
 #brew cask install mendeley-desktop
-#brew cask install zotero
+
 
 #casks to add:
 #iterm2 textexplander sourcetree adium alfred
