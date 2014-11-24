@@ -45,6 +45,7 @@ brew install jasper
 #Note: opencv install python bindings.
 brew install opencv --with-qt --with-ffmpeg --with-gstreamer --with-jasper
 brew install hdf5
+brew install geos #required by shapely which is required by sima
 #Other things to install: zsh,
 #zeromq (seems to be taken care of by pip install ipython[all])
 
@@ -72,6 +73,7 @@ brew cask install airfoil
 brew cask install google-drive
 brew cask install remote-desktop-connection
 brew cask install zotero
+brew cask install expandrive
 #brew cask info omnigraffle
 #brew cask install mendeley-desktop
 
