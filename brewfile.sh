@@ -74,6 +74,7 @@ brew cask install google-drive
 brew cask install remote-desktop-connection
 brew cask install zotero
 brew cask install expandrive
+brew cask install sketchup
 #brew cask info omnigraffle
 #brew cask install mendeley-desktop
 
