@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 
 function log() {
   echo $* > /dev/stderr
@@ -30,9 +30,8 @@ brew install redis
 brew install readline
 brew install libtiff
 brew install jpeg
-brew install cairo
 brew install openblas
-brew install valgrind
+#brew install valgrind
 brew install gcc
 brew install qt
 #--build-from-source prevents packages that depend on python from
@@ -42,14 +41,19 @@ brew install sip --build-from-source
 brew install pyqt --build-from-source
 brew install gstreamer --build-from-source
 brew install jasper
+
 #Note: opencv install python bindings.
-brew install opencv --with-qt --with-ffmpeg --with-gstreamer --with-jasper
+#Note: see opencv formula in /usr/local/Library/Formula/ for various options.
+#If issues examine cmake log: /Users/andalman/Library/Logs/Homebrew/opencv/01.cmake
+brew install opencv --with-qt --with-ffmpeg --with-gstreamer --with-jasper --without-brewed-numpy --build-from-source
+
 brew install hdf5
 brew install geos #required by shapely which is required by sima
 #Other things to install: zsh,
 #zeromq (seems to be taken care of by pip install ipython[all])
 
 log "Installing casks"
+brew install caskroom/cask/brew-cask
 brew cask install google-chrome
 brew cask install dropbox
 brew cask install evernote
@@ -74,10 +78,12 @@ brew cask install google-drive
 brew cask install remote-desktop-connection
 brew cask install zotero
 brew cask install expandrive
-brew cask install sketchup
+#brew cask install sketchup
 #brew cask info omnigraffle
 #brew cask install mendeley-desktop
 
+#cairo requires xquartz
+brew install cairo
 
 #casks to add:
 #iterm2 textexplander sourcetree adium alfred
