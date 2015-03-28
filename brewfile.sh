@@ -41,6 +41,7 @@ brew install sip --build-from-source
 brew install pyqt --build-from-source
 brew install gstreamer --build-from-source
 brew install jasper
+brew install bash-completion #for scp/rsync tab completion      
 
 #Note: opencv install python bindings.
 #Note: see opencv formula in /usr/local/Library/Formula/ for various options.

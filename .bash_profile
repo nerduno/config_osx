@@ -1,3 +1,6 @@
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
 
 #AA: Increase terminal command histoy.
 HISTFILESIZE=1000000000 HISTSIZE=1000000
