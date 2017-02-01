@@ -23,7 +23,7 @@ brew install emacs
 brew install git
 brew install htop
 brew install wget
-brew isntall brew-cask
+brew install brew-cask
 brew install ffmpeg
 brew install netcat
 brew install redis
@@ -31,17 +31,21 @@ brew install readline
 brew install libtiff
 brew install jpeg
 brew install openblas
+brew install pkg-config
+brew install graphviz
+brew install bash-completion #for scp/rsync tab completion      
 #brew install valgrind
 brew install gcc
 brew install qt
 #--build-from-source prevents packages that depend on python from
 #  replacing the OS_X system python with brewed python.
 #  (https://github.com/Homebrew/homebrew/issues/31229#issuecomment-60721969)
+#It is tricky to use brew with anaconda python
 brew install sip --build-from-source
-brew install pyqt --build-from-source
+brew install pyqt --build-from-source # AA: 2017-02-01: No longer works :(
 brew install gstreamer --build-from-source
 brew install jasper
-brew install bash-completion #for scp/rsync tab completion      
+
 
 #Note: opencv install python bindings.
 #Note: see opencv formula in /usr/local/Library/Formula/ for various options.

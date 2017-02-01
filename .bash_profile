@@ -53,12 +53,10 @@ export f01239=ubuntu@ec2-54-196-186-1.compute-1.amazonaws.com
 export f01240=ubuntu@ec2-54-82-255-183.compute-1.amazonaws.com
 
 #ssh aliases (-Y allows X11 connections)
-alias c3="ssh -Y andalman@colfax3.stanford.edu"
-alias c4="ssh -Y andalman@colfax4.stanford.edu"
-alias ch="ssh -Y andalman@helios.stanford.edu"
+alias c3="ssh c3"
+alias c4="ssh c4"
+alias ch="ssh ch"
 alias conchis="ssh -Y andalman@conchis.stanford.edu"
-alias cf="ssh -f andalman@colfax3.stanford.edu -L 5000:127.0.0.1:5000 -N"
-alias cn="ssh -f andalman@colfax3.stanford.edu -L 8890:127.0.0.1:8890 -N"
 alias cs="ssh -Y aandal@cardinal.stanford.edu"
 
 
@@ -74,3 +72,22 @@ function emacs_gui
 }
 
 export PATH="/Users/andalman/Library/Application Support/GoodSync":$PATH
+
+# added by Anaconda 2.2.0 installer
+export PATH="/Users/andalman/anaconda/bin:$PATH"
+
+# added for git ipynb cleaning see (https://gist.github.com/pbugnion/ea2797393033b54674af)
+export PATH="/Users/andalman/packages/scripts:$PATH"
+
+# AA: added as part of thunder/spark installation
+#export SPARK_HOME=/Users/andalman/packages/spark-1.4.0-bin-hadoop1
+#export SPARK_HOME=/Users/andalman/packages/spark-1.6.1-bin-hadoop2.4
+export SPARK_HOME=/Users/andalman/packages/spark-1.6.0-bin-hadoop1
+export IPYTHON=1
+export AWS_ACCESS_KEY_ID=AKIAJVCL4BVX3MFPL46A
+export AWS_SECRET_ACCESS_KEY=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
+# AA: added because I installed thunder using git instead of pip
+#export PYTHONPATH=/Users/andalman/projects/thunder:$rePYTHONPATH
+#export PATH="/Users/andalman/projects/thunder/bin:$PATH"
+export PATH=/root/scripts:$PATH
+export PYTHONPATH=/root/LFAnalyze/code:$PYTHONPATH
