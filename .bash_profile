@@ -84,8 +84,6 @@ export PATH="/Users/andalman/packages/scripts:$PATH"
 #export SPARK_HOME=/Users/andalman/packages/spark-1.6.1-bin-hadoop2.4
 export SPARK_HOME=/Users/andalman/packages/spark-1.6.0-bin-hadoop1
 export IPYTHON=1
-export AWS_ACCESS_KEY_ID=AKIAJVCL4BVX3MFPL46A
-export AWS_SECRET_ACCESS_KEY=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
 # AA: added because I installed thunder using git instead of pip
 #export PYTHONPATH=/Users/andalman/projects/thunder:$rePYTHONPATH
 #export PATH="/Users/andalman/projects/thunder/bin:$PATH"
