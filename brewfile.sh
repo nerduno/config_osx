@@ -58,29 +58,29 @@ brew install bash-completion #for scp/rsync tab completion
 
 log "Installing casks"
 brew install caskroom/cask/brew-cask
-brew cask install google-chrome
-brew cask install dropbox
-brew cask install evernote
-brew cask install dashlane
+#brew cask install google-chrome
+#brew cask install dropbox
+#brew cask install evernote
+#brew cask install dashlane
 brew cask install xquartz
-brew cask install paragon-ntfs
+#brew cask install paragon-ntfs
 #brew cask install picasa
-brew cask install boot2docker
+#brew cask install boot2docker
 #brew cask install teamviewer
 #brew cask install launchbar
 #brew cask install spotify
-brew cask install atom
-brew cask install emacs
+#brew cask install atom
+#brew cask install emacs
 #brew cask install r
 #brew cask install java
 #brew cask install fiji
 #brew cask install moom
 #brew cask install arduino
 #brew cask install handbrake
-brew cask install vlc
+#brew cask install vlc
 #brew cask install airfoil
 #brew cask install google-drive
-brew cask install remote-desktop-connection
+#brew cask install remote-desktop-connection
 #brew cask install zotero
 #brew cask install expandrive
 #brew cask install sketchup
